@@ -11,6 +11,7 @@ int main() {
   } else {
      while(eingabe >0) {
        t = t*eingabe;
+       eingabe--;
      }
     printf("\n Das Ergebnis beträgt: %i", t);
   }
