@@ -7,7 +7,7 @@ int main() {
   scanf("%i", &eingabe);
   
   if(eingabe == 0) {
-     printf("\n0");
+     printf("\n1");
   } else {
      while(eingabe >0) {
        t = t*eingabe;
